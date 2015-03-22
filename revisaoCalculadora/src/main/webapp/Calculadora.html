@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Calculadora Revisão</title>
+</head>
+<body>
+	<form action="calculadoraController" method="POST">
+		<label>Insira o Valor 1</label>
+		<input type="text" name="pvalor"><br>
+		<label>Insira o Segundo Valor 2</label>
+		<input type="text" name="svalor"><br>
+		<label>Escolha a Operação a ser Realizada</label><br>
+		<input type="radio"	name="calcular" value="somar">Somar</input><br>
+		<input type="radio"	name="calcular" value="subtrair">Subtrair</input><br>
+		<input type="radio"	name="calcular" value="multiplicar">Multiplicar</input><br>
+		<input type="radio"	name="calcular" value="dividir">Dividir</input><br>
+		<input type="submit" value="Aplicar" />
+	</form>
+</body>
+</html>
